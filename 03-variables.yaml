@@ -1,5 +1,5 @@
 - variables: variables in ansible
-  hosts: mongo db
+  hosts: mongodb
   # this is play level variable, map
   vars:
    COURSE: DevOPS
