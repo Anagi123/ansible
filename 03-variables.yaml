@@ -1,4 +1,4 @@
-- variables: variables in ansible
+- name: variables in ansible
   hosts: mongodb
   # this is play level variable, map
   vars:
