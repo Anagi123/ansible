@@ -1,6 +1,6 @@
 - name: ansible variable data-types
   hosts: localhost
-  vasr:
+  vars:
   - AGE: 30 # number
   - NAME: "Nageswari" # String
   - isDevOps: true # Boolean
