@@ -4,7 +4,7 @@ roboshop-us-dev-db-mongodb-01.saidevops.site
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
-NAME=Nageswari-inventory
+;; NAME=Nageswari-inventory
 
 [mysql]
 roboshop-us-dev-db-mysql-01.saidevops.site
