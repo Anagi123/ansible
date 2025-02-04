@@ -1,10 +1,16 @@
 - name: testing variable precedencie
-  hosts: localhost
+  hosts: mongodb
   vars: 
-    NAME: Nageswari
+    NAME: Nageswari-play
+  var_files:
+  - variables.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: please enter your trainer name
+    private: false
   tasks:
   - name: variables at task level 
     vars: 
      NAME: Nageswari-task
     ansible.builtin.debug: 
-     msg: "Trainer name is: {{}}"
+     msg: "Trainer name is: {{NAME}}"
