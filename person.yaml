@@ -1,0 +1,34 @@
+# list of persons
+-  name: Nageswari
+   dob: 27-06-1989
+  #this mapping
+   address:
+    city: blr
+    country: IN
+    d.no: 918
+    street: 5th b cross
+   # list of addresses  
+   addresses:
+   - type: perm
+     city: hyd
+     country: IN
+   - type: current
+     city: blr
+     country: IN     
+ # this is 2nd person
+- name: Ravi
+  dob: 27-06-1989
+  # this mapping
+  address:
+    city: blr
+    country: IN
+    d.no: 918
+    street: 5th b cross
+ # list of addresses  
+  addresses:
+  - type: perm
+    city: hyd
+    country: IN
+  - type: current
+    city: blr
+    country: IN     
