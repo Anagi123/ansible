@@ -1,0 +1,10 @@
+- name: testing variable precedencie
+  hosts: localhost
+  vars: 
+    NAME: Nageswari
+  tasks:
+  - name: variables at task level 
+    vars: 
+     NAME: Nageswari-task
+    ansible.builtin.debug: 
+     msg: "Trainer name is: {{}}"
