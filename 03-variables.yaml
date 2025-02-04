@@ -2,9 +2,9 @@
   hosts: mongo db
   # this is play level variable, map
   vars:
-    COURSE: DevOPS
-    TRAINER: Siva
-    DURATION: 110HRS
+   COURSE: DevOPS
+   TRAINER: Siva
+   DURATION: 110HRS
   tasks:
   - name: print hello world
     ansible.builtin.debug:
