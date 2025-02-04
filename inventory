@@ -1,5 +1,5 @@
 [mongodb]
-roboshop-us-dev-db-mongodb-01.saidevops.site
+172.31.92.132
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
