@@ -1,4 +1,4 @@
-[nginx]
+[mongodb]
 roboshop-us-dev-db-mongodb-01.saidevops.site
 
 [mysql]
