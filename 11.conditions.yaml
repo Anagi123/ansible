@@ -5,6 +5,7 @@
     ansible.builtin.debug:
     register: output
     ignore_errors: true
+
   - name: print the command output
     ansible.builtin.debug:
       msg: "output is: {{output}}"
@@ -12,7 +13,7 @@
     ansible.builtin.debug:
       msg: "{{output.rc}}"
   - name: create user roboshop
-    become: true
+    become: yes
     ansible.builtin.user:
       name: roboshop
     when: output.rc != 0             
