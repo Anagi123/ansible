@@ -6,6 +6,8 @@
     ansible.builtin.yum:
       name: "{{item}}"
       state: installed
-    loops: 
+    loop: 
     - nginx
     - postmap
+    - cyrus-sasl-plain
+    - mailx
